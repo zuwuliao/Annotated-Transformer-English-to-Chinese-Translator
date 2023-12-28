@@ -59,8 +59,8 @@ UNK = 0  # unknown word-id
 PAD = 1  # padding word-id
 BATCH_SIZE = 64
 
-# DEBUG = True    # Debug / Learning Purposes.
-DEBUG = False # Build the model, better with GPU CUDA enabled.
+DEBUG = True    # Debug / Learning Purposes.
+# DEBUG = False # Build the model, better with GPU CUDA enabled.
 
 if DEBUG:
     EPOCHS = 2
